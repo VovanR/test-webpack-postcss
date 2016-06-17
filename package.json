@@ -1,0 +1,18 @@
+{
+  "name": "test-webpack-postcss",
+  "scripts": {
+    "start": "webpack"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.3.6",
+    "css-loader": "^0.23.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "postcss-csso": "^1.1.2",
+    "postcss-loader": "^0.9.1",
+    "precss": "^1.4.0",
+    "style-loader": "^0.13.1",
+    "stylelint-config-standard": "^9.0.0",
+    "stylelint-webpack-plugin": "^0.2.0",
+    "webpack": "^1.13.1"
+  }
+}

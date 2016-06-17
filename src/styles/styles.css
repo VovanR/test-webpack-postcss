@@ -1,0 +1,13 @@
+@import 'blocks/icon/icon.css';
+
+$color: blue;
+
+.paragraph {
+  color: $color;
+}
+
+.paragraph__small {
+  font-size: small;
+  color: green;
+  user-select: none;
+}
