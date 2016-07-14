@@ -9,6 +9,7 @@
     "extract-text-webpack-plugin": "^1.0.1",
     "postcss-csso": "^1.1.2",
     "postcss-loader": "^0.9.1",
+    "postcss-style-guide": "^0.13.0",
     "precss": "^1.4.0",
     "style-loader": "^0.13.1",
     "stylelint-config-standard": "^9.0.0",

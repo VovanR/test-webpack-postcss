@@ -1,4 +1,6 @@
-@import 'blocks/icon/icon.css';
+@import '_variables.css';
+@import 'blocks/props.css';
+@import 'blocks/radio.css';
 
 $color: blue;
 

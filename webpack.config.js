@@ -25,6 +25,7 @@ module.exports = {
     ],
     postcss: [
         require('precss')(),
+        require('postcss-style-guide')({dest: './dist/styleguide/index.html'}),
         require('autoprefixer')({browsers: ['last 2 versions'], cascade: false}),
         require('postcss-csso')()
     ]
