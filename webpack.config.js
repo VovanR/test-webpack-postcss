@@ -27,6 +27,8 @@ module.exports = {
         return [
             require('postcss-import')({addDependencyTo: webpack}),
             require('precss')(),
+            require('postcss-flexbugs-fixes')(),
+            require('postcss-clearfix')(),
             require('postcss-style-guide')({dest: './dist/styleguide/index.html'}),
             require('autoprefixer')({browsers: ['last 2 versions'], cascade: false}),
             require('postcss-csso')()
