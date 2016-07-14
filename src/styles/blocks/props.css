@@ -1,0 +1,117 @@
+/*
+@styleguide
+@title Props
+Use the props classes and `<ul>`, `<div>` elements.
+
+<ul class="props">
+  <li class="props__item">
+    <span class="props__label">
+      Name:
+    </span>
+    <span class="props__value">
+      Foo
+    </span>
+  </li>
+  <li class="props__item">
+    <span class="props__label">
+      Surname:
+    </span>
+    <span class="props__value">
+      Bar
+    </span>
+  </li>
+</ul>
+
+    <ul class="props">
+      <li class="props__item">
+        <span class="props__label">
+          Name:
+        </span>
+        <span class="props__value">
+          Foo
+        </span>
+      </li>
+      <li class="props__item">
+        <span class="props__label">
+          Surname:
+        </span>
+        <span class="props__value">
+          Bar
+        </span>
+      </li>
+    </ul>
+
+<ul class="props props_style_user">
+  <li class="props__item">
+    <span class="props__label">
+      Name
+    </span>
+    <span class="props__value">
+      Foo
+    </span>
+  </li>
+  <li class="props__item">
+    <span class="props__label">
+      Surname
+    </span>
+    <span class="props__value">
+      Bar
+    </span>
+  </li>
+</ul>
+
+    <ul class="props props_style_user">
+      <li class="props__item">
+        <span class="props__label">
+          Name
+        </span>
+        <span class="props__value">
+          Foo
+        </span>
+      </li>
+      <li class="props__item">
+        <span class="props__label">
+          Surname
+        </span>
+        <span class="props__value">
+          Bar
+        </span>
+      </li>
+    </ul>
+ */
+.props {
+  margin: 0;
+  padding: 0;
+
+  &__item {
+    list-style-type: none;
+  }
+
+  &__label {
+    display: inline-block;
+  }
+
+  &__value {
+    display: inline-block;
+  }
+}
+
+.props_style_user {
+  .props__item {
+    display: table-row;
+  }
+
+  .props__label {
+    color: rgba(0, 0, 0, 0.5);
+    text-transform: lowercase;
+    font-variant: small-caps;
+    text-align: right;
+    display: table-cell;
+    padding-right: 0.25em;
+  }
+
+  .props__value {
+    font-size: 1.25em;
+    display: table-cell;
+  }
+}
