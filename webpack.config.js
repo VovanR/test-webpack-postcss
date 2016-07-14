@@ -23,10 +23,13 @@ module.exports = {
         }),
         new ExtractTextPlugin('[name].css', {allChunks: true}),
     ],
-    postcss: [
-        require('precss')(),
-        require('postcss-style-guide')({dest: './dist/styleguide/index.html'}),
-        require('autoprefixer')({browsers: ['last 2 versions'], cascade: false}),
-        require('postcss-csso')()
-    ]
+    postcss: function (webpack) {
+        return [
+            require('postcss-import')({addDependencyTo: webpack}),
+            require('precss')(),
+            require('postcss-style-guide')({dest: './dist/styleguide/index.html'}),
+            require('autoprefixer')({browsers: ['last 2 versions'], cascade: false}),
+            require('postcss-csso')()
+        ];
+    }
 };

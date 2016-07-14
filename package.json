@@ -1,13 +1,15 @@
 {
   "name": "test-webpack-postcss",
   "scripts": {
-    "start": "webpack"
+    "build": "webpack",
+    "start": "webpack --watch"
   },
   "devDependencies": {
     "autoprefixer": "^6.3.6",
     "css-loader": "^0.23.1",
     "extract-text-webpack-plugin": "^1.0.1",
     "postcss-csso": "^1.1.2",
+    "postcss-import": "^8.1.2",
     "postcss-loader": "^0.9.1",
     "postcss-style-guide": "^0.13.0",
     "precss": "^1.4.0",
