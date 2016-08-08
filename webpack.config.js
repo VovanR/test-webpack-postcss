@@ -5,15 +5,15 @@ module.exports = {
     entry: {
         styles: './src/styles/styles.css'
     },
-	output: {
-		path: './dist',
+    output: {
+        path: './dist',
         filename: '[name].js'
-	},
+    },
     module: {
         loaders: [
             {
                 test: /\.css$/,
-				loader: ExtractTextPlugin.extract('style-loader', 'css-loader!postcss-loader'),
+                loader: ExtractTextPlugin.extract('style-loader', 'css-loader!postcss-loader')
             }
         ]
     },

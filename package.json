@@ -5,7 +5,7 @@
     "start": "webpack --watch"
   },
   "devDependencies": {
-    "autoprefixer": "^6.3.6",
+    "autoprefixer": "^6.4.0",
     "css-loader": "^0.23.1",
     "extract-text-webpack-plugin": "^1.0.1",
     "postcss-clearfix": "^1.0.0",
@@ -16,8 +16,8 @@
     "postcss-style-guide": "^0.13.0",
     "precss": "^1.4.0",
     "style-loader": "^0.13.1",
-    "stylelint-config-standard": "^9.0.0",
-    "stylelint-webpack-plugin": "^0.2.0",
+    "stylelint-config-standard": "^12.0.0",
+    "stylelint-webpack-plugin": "^0.3.0",
     "webpack": "^1.13.1"
   }
 }
