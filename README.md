@@ -8,3 +8,22 @@
 - [CSSO](https://github.com/css/csso)
 - [stylelint](https://github.com/stylelint/stylelint) with [standard config](https://github.com/stylelint/stylelint-config-standard)
 - [postcss-style-guide](https://github.com/morishitter/postcss-style-guide)
+
+## Install
+```
+npm i
+```
+
+## Build
+```
+npm run build
+```
+
+## Develop
+```
+npm start
+```
+Open [localhost:8080/webpack-dev-server](http://localhost:8080/webpack-dev-server/)
+
+## License
+MIT © [Vladimir Rodkin](https://github.com/VovanR)

@@ -1,23 +1,25 @@
 {
   "name": "test-webpack-postcss",
+  "description": "My webpack PostCSS playground",
   "scripts": {
     "build": "webpack",
-    "start": "webpack --watch"
+    "start": "webpack-dev-server"
   },
   "devDependencies": {
-    "autoprefixer": "^6.4.0",
-    "css-loader": "^0.23.1",
+    "autoprefixer": "^6.5.0",
+    "css-loader": "^0.25.0",
     "extract-text-webpack-plugin": "^1.0.1",
     "postcss-clearfix": "^1.0.0",
     "postcss-csso": "^1.1.2",
     "postcss-flexbugs-fixes": "^2.0.0",
     "postcss-import": "^8.1.2",
-    "postcss-loader": "^0.9.1",
+    "postcss-loader": "^0.13.0",
     "postcss-style-guide": "^0.13.0",
     "precss": "^1.4.0",
     "style-loader": "^0.13.1",
-    "stylelint-config-standard": "^12.0.0",
-    "stylelint-webpack-plugin": "^0.3.0",
-    "webpack": "^1.13.1"
+    "stylelint-config-standard": "^13.0.2",
+    "stylelint-webpack-plugin": "^0.4.0",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.16.2"
   }
 }
