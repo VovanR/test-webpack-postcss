@@ -11,7 +11,7 @@ const isDev = process.env.NODE_ENV !== ENV.production;
 
 module.exports = {
     entry: {
-        styles: './src/styles/styles.css'
+        styles: './src/css/index.css'
     },
     output: {
         path: './dist',

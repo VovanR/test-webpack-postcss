@@ -2,10 +2,8 @@
 @import 'blocks/props.css';
 @import 'blocks/radio.css';
 
-$color: blue;
-
 .paragraph {
-  color: $color;
+  color: var(--color);
 }
 
 .paragraph__small {
